@@ -1,0 +1,10 @@
+
+I started with getting elements stored in variables rather than hard coding them is scripts.
+Have made a separate ini file - testdata.ini in feature/step_definition directory.
+
+Then making some basic scenarios for getting element displayed.
+Then making some commom functions for clicking an element and verifying title of current page in 
+support/world/index.js file.
+
+Have used dynamic waits in my scripts instead of static wait and sleep function.
+
