@@ -25,6 +25,7 @@ class CustomWorld {
     return this.driver.get(BASE_URL);
   }
 
+
   clicksOnButton(button) {
     const button1=this.driver.wait(until.elementLocated(By.xpath(button)),20000);
     button1.click();
