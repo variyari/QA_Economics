@@ -25,8 +25,8 @@ class CustomWorld {
     return this.driver.get(BASE_URL);
   }
 
-
-  clicksOnButton(button) {
+ clicksOnButton(button) {
+    
     const button1=this.driver.wait(until.elementLocated(By.xpath(button)),20000);
     button1.click();
     this.driver.wait(until.elementLocated(By.xpath("//img[@title='Jobs.Economist.com']")),20000);

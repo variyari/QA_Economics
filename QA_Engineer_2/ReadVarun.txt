@@ -1,4 +1,4 @@
-
+--Iteration1
 I started with getting elements stored in variables rather than hard coding them is scripts.
 Have made a separate ini file - testdata.ini in feature/step_definition directory.
 
@@ -7,4 +7,23 @@ Then making some commom functions for clicking an element and verifying title of
 support/world/index.js file.
 
 Have used dynamic waits in my scripts instead of static wait and sleep function.
+----
+
+
+--Iteration2
+Added reporting mechanism using cucumber-html report
+Run node node_modules/cucumber/bin/cucumber-js --format json:test/cucumber_report.json to run sample tests.
+and then run node report.js in order to generate html file.
+
+Also added scenario to test 'Browse Job by sectors'
+Values of expected jobs are passed through dataTable.
+Can also be tested via matching result from database and UI.
+--End
+
+--Improvements
+Would have liked to incorporate Page Object Style Model i.e. maintaining objects and functions of one page using one 
+class.
+
+
+
 
